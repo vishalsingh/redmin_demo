@@ -1,0 +1,5 @@
+ActionController::Base.session = {
+  :session_key => '_redmine_session',
+  :secret => 'aa5010c9a255c1b60dbec7b81e8f3f42de1baa8760677724e81c3e425c5b1fa916d422931d99a2f2',
+  :expire_after => 2.hours
+}
