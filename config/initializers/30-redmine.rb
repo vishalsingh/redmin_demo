@@ -5,7 +5,7 @@ I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
 require 'redmine'
 
 # Load the secret token from the Redmine configuration file
-secret = Redmine::Configuration['4aac56118d4314ea7b66fdc8db22a46d2d56954dd36ac8f78366228a94c4a174e1f31650951cef08']
+secret = Redmine::Configuration['faa7c2718be53ae70ac5e2fc6ed0f32477d97826fba8a29518624e86db0c821c0149011f5b3bdcfd']
 if secret.present?
   RedmineApp::Application.config.secret_token = secret
 end
